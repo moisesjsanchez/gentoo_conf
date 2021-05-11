@@ -1,0 +1,20 @@
+configuration {
+ modi: "drun,run";
+ location:1; 
+ width: 100;
+ lines: 2;
+ line-margin: 0;
+ line-padding: 1;
+ seperator-style: none;
+ columns: 9;
+ font: "CozetteVector 9";
+ bw:0;
+ hide-scrollbar: true;
+ disable-history: false;
+ cycle: true;
+ kb-row-select: "Tab";
+ kb-row-tab: "";
+ matching: "fuzzy";
+}
+
+@import "~/.cache/wal/colors-rofi-dark"
